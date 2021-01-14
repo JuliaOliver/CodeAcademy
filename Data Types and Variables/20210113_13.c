@@ -19,7 +19,7 @@ int main(void){
     printf("%ld\n", c);
 
     float d = 6;
-    printf("%.2f\n", d);
+    printf("%f\n", d);
 
     double e = -48.907;
     printf("%f\n", e);
@@ -30,5 +30,5 @@ int main(void){
 /* Prints a
           102
           50000
-          6.00
+          6.000000
           -48.907000 */
