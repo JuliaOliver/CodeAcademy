@@ -11,5 +11,5 @@ int main(void){
     return 0;
 }
 
-/* The shape should've been created without using loops, 
-only by using the printf() function */
+/* Prints the shape. The shape should've been created 
+without using loops, only by using the printf() function */
