@@ -19,13 +19,13 @@ int main(){
 
     scanf("%d", &rez);
 
-    int moneyOwed;
+    int moneyOwed = 0;
 
     if (rez == 1){
-        moneyOwed = caravansPricePerDay;
+        moneyOwed += caravansPricePerDay;
     }
     else{
-        moneyOwed = campersPricePerDay;
+        moneyOwed += campersPricePerDay;
     }
     printf("You owe BGN %d\n", moneyOwed);
     printf("Would you like any other available product?");
