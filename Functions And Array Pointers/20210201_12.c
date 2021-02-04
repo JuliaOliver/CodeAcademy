@@ -31,12 +31,12 @@ int main(void){
 int any(char firstString[], char secondString[]){
     int i;
     int j;
-    int firstLenght = strlen(firstString);
-    int secondLenght = strlen(secondString);
+    int firstLength = strlen(firstString);
+    int secondLength = strlen(secondString);
 
-    for(i = 0; i < firstLenght; i++){
-        for(j = 0; j < secondLenght; j++){
-            if(i == firstLenght - 1 && j == secondLenght - 1 && firstString[i] != secondString[j]){
+    for(i = 0; i < firstLength; i++){
+        for(j = 0; j < secondLength; j++){
+            if(i == firstLength - 1 && j == secondLength - 1 && firstString[i] != secondString[j]){
                 return -1;
             }
             if(firstString[i] == secondString[j]){
