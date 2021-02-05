@@ -8,14 +8,14 @@ is equal to the searched. Then we return the position of the number in the array
 
 #include <stdio.h>
 
-int linSearch(int array[], int length, int number);
+int binarySearch(int array[], int length, int number);
 
 int main(void){
     int array[] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
     int length = 10;
     int number = 17;
 
-    int position = linSearch(array, length, number);
+    int position = binarySearch(array, length, number);
 
     if (position >= 0){
         printf("\nMatch at position: %d\n", position);
@@ -27,7 +27,7 @@ int main(void){
     return 0;
 }
 
-int linSearch(int array[], int length, int number){
+int binarySearch(int array[], int length, int number){
     int halfLength = length / 2;
     int i;
 
