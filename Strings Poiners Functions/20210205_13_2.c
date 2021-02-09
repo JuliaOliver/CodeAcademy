@@ -1,4 +1,4 @@
-/* Define and initialize a 3D array with the element (3 x 3 x 3). */
+/* Define and initialize a 3D array with the element (5 x 5 x 5). */
 
 #include <stdio.h>
 
