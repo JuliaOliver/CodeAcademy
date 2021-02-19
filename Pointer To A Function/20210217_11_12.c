@@ -1,3 +1,10 @@
+/* Write a program to generate a password in lowercase (i),
+special characters (j), capital letters (k) and numbers (l), but shuffled. Use functions.
+Guidelines:
+1. Enter the length of the password, how many characters from it are lowercase letters (a..z), 
+uppercase letters (A..Z), how many numbers (0..9), how many special characters (@ # $%! ^ & *).
+2. A random number generator is used for the symbols and their position */
+
 #include <stdio.h>
 #include <stdlib.h> 
 #include <time.h> 
