@@ -38,3 +38,13 @@ int main(void){
 
     return 0;
 }
+
+/* Prints Size of sctuct: 8
+          Integer: 7
+          Char: �
+
+          Size of sctuct: 4
+          Char1: �
+          Char2: �
+          Integer1: 7
+          Integer2: 7 */
