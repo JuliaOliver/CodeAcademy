@@ -16,3 +16,7 @@ int main(void){
 
     return 0;
 }
+
+/* Prints Size of sctuct: 2
+          Integer: 7
+          Char:  */
