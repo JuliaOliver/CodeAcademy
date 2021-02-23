@@ -1,7 +1,18 @@
 /* Merge with members unsigned short and char. Limit the bits used to 6. 
 Initialize and display on the console. */
 
+#include <stdio.h>
 
-/* Имах проблеми със битовите полета, когато сложа тип char, потърсих информация и
-излезе, че в битовите полета в С мога да използвам смао типове int, signed int или unsigned int.
-Не мога да намеря начин да реша задачата като имам char в битово поле */
+union tagUnion{
+    unsigned short int intField: 6;
+    char charField: 6;
+};
+
+int main(void){
+    union tagUnion variable = {7, 'c'};
+
+    printf("Size of sctuct: %d", sizeof(variable));
+    printf("\nInteger: %u\nChar: %c", variable.intField, variable.charField);
+
+    return 0;
+}
