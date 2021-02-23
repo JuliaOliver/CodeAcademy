@@ -12,6 +12,18 @@ char, char, short int, short int. How does the size of the structure change?
 Try the same with the #pragma pack preprocessor (1). */
 
 
-/* Имах проблеми със битовите полета, когато сложа тип char, потърсих информация и
-излезе, че в битовите полета в С мога да използвам само типове int, signed int или unsigned int.
-Не мога да намеря начин да реша задачата като имам char в битово поле */
+#include <stdio.h>
+
+struct tagStruct{
+    unsigned int intField: 3;
+    char charField: 6;
+};
+
+int main(void){
+    struct tagStruct variable = {7, 'c'};
+
+    printf("Size of sctuct: %d", sizeof(variable));
+    printf("\nInteger: %u\nChar: %c", variable.intField, variable.charField);
+
+    return 0;
+}
