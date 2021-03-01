@@ -64,3 +64,5 @@ int main(void){
 
     return 0;
 }
+
+/* Depending the entered input, prints the corresponding answer */
