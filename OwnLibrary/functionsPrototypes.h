@@ -1,0 +1,10 @@
+int printArray(int array[], int length);
+int linearSearch(int array[], int length, int number);
+int binarySearch(int array[], int length, int number);
+void copyString(char *to, char *from);
+void toLower(char string[]);
+void swap(int *xp, int *yp);
+void bubbleSort(int arrayChar[], int n);
+int stringCompare(char *s, char *t);
+int decimalToBinary(int number);
+char reverse(char *string);
