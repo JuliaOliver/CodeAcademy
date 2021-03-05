@@ -56,6 +56,9 @@ int main(void){
         printField(field, row, col);
     }
     
+    for (i=0; i<row; i++){ 
+        free(field[i]);
+    }
     free(field);
     
     return 0;
