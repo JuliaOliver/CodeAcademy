@@ -5,7 +5,7 @@ for the end of the EOF file. Check that the file pointer is not NULL, if it is N
 
 #include <stdio.h>
 
-int main(){
+int main(void){
     FILE *fp;
     int c;
     fp = fopen("testFile.txt","r");
