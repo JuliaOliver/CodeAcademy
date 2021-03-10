@@ -27,7 +27,7 @@ int main(void){
     totalLines = 1;
     fseek(filePtrIn, 0, SEEK_SET);
 
-    while(fgets(str, 512, filePtrIn) != NULL){ 
+    while(fgets(str, 100, filePtrIn) != NULL){ 
         if(totalLines != lineToRemove){
             fputs(str, filePtrOut);
         }
