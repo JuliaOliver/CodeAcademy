@@ -14,4 +14,4 @@ For example, at N = 5 and M = 6, the input file will look like this <p>
 60 20 56 68 80 <p>
 70 20 56 68 70 <p>
 In the output file CONC.OUT the ranking found by the program should be displayed: first the number of the best ranked girl, then the second in the ranking and so on. The numbers must be separated by one space. For our example, the source file must contain: <p>
-2 1 3 6 4 5 or 2 1 3 6 5 4.? <p>
+2 1 3 6 4 5 or 2 1 3 6 5 4. <p>
