@@ -2,7 +2,7 @@ CC=gcc
 COMPILE=$(CC) -g
 CFILES=$(dir \s *.c*)#functionsLogic.c task.c
 OBJECT=functionsLogic.o task.o#$(CFILES:.c=.o)
-TARGET=list
+TARGET=task
 $(TARGET):$(OBJECT)
 	$(COMPILE) -o $@ $(OBJECT)
 .c:.o
