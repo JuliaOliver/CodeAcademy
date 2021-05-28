@@ -5,4 +5,4 @@
   
 [logo]: https://codeacademy.bg/wp-content/uploads/2019/10/code_academy_logo-roboto-slab.png "Code Academy Course"
 
-<a href="https://strypes.eu/" rel="Strypes">![Foo](https://strypes.eu/static/img/media-kit/strypes-logo-transparent.png)</a>
+[![strypes](https://strypes.eu/static/img/media-kit/strypes-logo-transparent.png)](https://strypes.eu/)
