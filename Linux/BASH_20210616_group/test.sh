@@ -1,7 +1,7 @@
 #!/bin/bash
 
 res=0
-RES=$(./task4 $@)
+RES=$(./task4 $@) # The executable should have the name - task4
 
 for num in "$@" 
 do
